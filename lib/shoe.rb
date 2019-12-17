@@ -6,6 +6,7 @@ class Shoe
     @brand = brand
     if BRANDS.exclude?(@brand)
       BRANDS.push(@brand)
+    end
   end
   def brand(brand)
 

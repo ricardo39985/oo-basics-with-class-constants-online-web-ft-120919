@@ -6,8 +6,8 @@ class Shoe
     @brand = brand
   end
   def brand(brand)
-    @brand
     BRANDS.push(@brand)
+    @brand
   end
   def cobble
     self.condition = "new"

@@ -7,7 +7,7 @@ class Shoe
   end
   def brands=(brand)
     @brand = brand
-    BRANDS << @brand
+    BRANDS.push(@brand)
   end
 
   def cobble

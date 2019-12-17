@@ -4,9 +4,10 @@ class Shoe
   BRANDS = [].uniq
   def initialize(brand)
     @brand = brand
+    BRANDS.push(@brand)
   end
   def brand(brand)
-    BRANDS.push(@brand)
+
     @brand
   end
   def cobble
